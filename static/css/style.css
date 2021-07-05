@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -71,3 +74,40 @@ body {
     font-weight: 500px;
     font-size: 14px;
 }
+
+.welcome-sect {
+    display: flex;
+    height: 277px;
+    width: 1180px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding: 120px 40px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 277px;
+    width: 780px;
+    margin-bottom: 8px;
+}
+
+
+.welcome-text h1{
+    margin: 0;
+    font-size: 56px;
+    font-family:"Ginto Nord","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 800;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    color: #fff;
+}
+
+/* .welcome-pera {
+    margin-top: ;
+} */
