@@ -61,6 +61,10 @@ body {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 15px 0px;
 }
 
+.nav-btn:hover a.login-btn{
+    color: #5865f2;
+}
+
 .nav-btn a {
     text-decoration: none;
     color:rgb(35, 39, 42);
