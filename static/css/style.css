@@ -284,3 +284,19 @@ body {
     box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
     color: #fff;
 }
+
+
+/* footer start here  */
+.footer-section1 {
+    margin: 0 auto;
+    width: 1260px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 0 20px;
+    padding: 0 40px;
+}
+
+.info-box {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
