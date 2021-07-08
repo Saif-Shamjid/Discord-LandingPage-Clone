@@ -189,3 +189,98 @@ body {
 }
 
 /* problem end here  */
+
+.left-right-section-container {
+    width: 1260px;
+    margin: 0 auto;
+    padding: 120px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-right-text-section{
+    width: 379px;
+}
+
+.left-right-text-section h2{
+    font-size: 48px;
+    font-weight:700;
+    line-height:120%;
+}
+
+.left-right-text-section-pera {
+    margin-top:24px;
+    font-size:clamp(16px,2vw,20px);
+    line-height:1.625;
+}
+
+.bit-img-section-container {
+    width: 1260px;
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top:120px;
+    padding-bottom:80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.bit-img-section-container img {
+    margin-top: 16px;
+}
+
+.big-img-section-text {
+    text-align: center;
+}
+
+.big-img-section-text h2 {
+    font-size: 46px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+    font-weight: 300;
+    line-height: 95%;
+    text-transform: uppercase;
+    text-rendering: geometricPrecision;
+    margin-bottom:24px;
+}
+.big-img-section-text-pera{
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
+    padding: 0px 65px;
+}
+
+.download-section-container {
+    position: relative;
+    width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.download-section-container img{
+    position: absolute;
+    height: 49px;
+    width: 531px;
+}
+
+.download-section-container h4 {
+    margin-top: 20px;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 37px;;
+}
+
+.black-btn {
+    background-color: #5865f2;
+    color:#fff;
+}
+
+.black-btn:hover {
+    background-color: hsl(226deg 58% 72%);
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+    color: #fff;
+}
